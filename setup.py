@@ -5,6 +5,11 @@ setup(name='pygxinput',
       long_description = \
 """pygxinput allows use of XInput devices in pyglet. Such devices
 include 3Dconnexion Space Navigator and Wacom tablets.
+
+For information about how to setup the Space Navigator as an XInput
+device, see http://www.fedorawiki.de/index.php/SpaceNavigator (in
+German).
+
 """,
       version='0.0.1', # keep in sync with pygxinput/pygxinput.py
       install_requires=['pyglet>=1.1alpha2',],
