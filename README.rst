@@ -27,7 +27,7 @@ Screenshot of example program ``opengl_xinput.py`` demonstrating use
 of a `3Dconnexion Space Navigator`__ to control the movement of a
 torus in 3D.
 
-__ http://www.3dconnexion.com/3dmouse/spacenavigator.php 
+__ http://www.3dconnexion.com/3dmouse/spacenavigator.php
 
 .. image:: ../../pygxinput/examples/opengl_xinput_screenshot.png
   :alt: Screenshot of opengl_xinput.py
@@ -35,12 +35,13 @@ __ http://www.3dconnexion.com/3dmouse/spacenavigator.php
 Download
 ========
 
-The `development (SVN) version of pygxinput`__ may be downloaded via
-subversion::
+The `development version of pygxinput`__ (`raw files`__) may
+be downloaded via git::
 
-  svn co http://code.astraw.com/motmot/trunk/pygxinput
+  git clone git://github.com/motmot/pygxinput.git
 
-__ http://code.astraw.com/motmot/trunk/pygxinput#egg=pygxinput-dev 
+__ http://github.com/motmot/pygxinput
+__ http://github.com/motmot/pygxinput.git#egg=pygxinput-dev
 
 
 Discussion
