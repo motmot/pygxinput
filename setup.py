@@ -19,7 +19,7 @@ For an alternative Space Navigator driver (currently not XInput compatible), see
 
 """,
       version='0.0.1', # keep in sync with pygxinput/pygxinput.py
-      install_requires=['pyglet>=1.1alpha2',],
+      install_requires=['pyglet>=1.1',],
       author='Andrew Straw',
       author_email='strawman@astraw.com',
       url='http://code.astraw.com/projects/motmot/wiki/pygxinput',
