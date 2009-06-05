@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # ----------------------------------------------------------------------------
 # pyglet
-# Copyright (c) 2006-2008 Alex Holkner, Andrew Straw
+# Copyright (c) 2006-2009 Alex Holkner, Andrew Straw
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -74,7 +74,7 @@ identifiers = xinput_window.get_xinput_device_identifiers(window)
 xinput_device = None
 
 for identifier in identifiers:
-    if identifier.lower().startswith('space'):
+    if 'spacenavigator' in identifier.lower():
         xinput_device = xinput_window.XInputDevice( window,
                                                     identifier)
 
