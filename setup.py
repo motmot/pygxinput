@@ -2,9 +2,6 @@ from setuptools import setup, find_packages
 import os
 
 kws = {}
-if not int(os.getenv( 'DISABLE_INSTALL_REQUIRES','0' )):
-    kws['install_requires'] = ['pyglet>=1.1',
-                               ]
 
 setup(name='pygxinput',
       description="Use XInput devices in pyglet.",
